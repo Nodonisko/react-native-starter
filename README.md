@@ -1,7 +1,33 @@
-#  IgniteStarter
-[![js-standard-style](https://img.shields.io/badge/code%20style-standard-brightgreen.svg?style=flat)](http://standardjs.com/)
+#  Simplified Ignite React Native starter
 
-* Standard compliant React Native App Utilizing [Ignite](https://github.com/infinitered/ignite)
+## Main features
+
+* ALL CODE works with iOS and Android
+* Redux State Management
+* Optional Redux Persistence (uses AsyncStorage via [redux-persist](https://github.com/rt2zz/redux-persist))
+* ESlint - AirBNB Javascript with some settings off
+* Redux Sagas
+* Githooks
+* AVA Tests - even React Native components!
+* Code Coverage Reports
+* API Ready
+* Reactotron Ready
+* Included Common Libs:
+  * [react-native-vector-icons](https://github.com/oblador/react-native-vector-icons)
+  * [react-native-animatable](https://github.com/oblador/react-native-animatable)
+  * [react-native-i18n](https://github.com/AlexanderZaytsev/react-native-i18n)
+  * [react-native-drawer](https://github.com/root-two/react-native-drawer)
+  * [apisauce](https://github.com/skellock/apisauce)
+  * [reduxsauce](https://github.com/skellock/reduxsauce)
+  * [react-native-maps](https://github.com/lelandrichardson/react-native-maps)
+  * [rn-translate-template](https://github.com/hiaw/rn-translate-template)
+* Included Developer Libs:
+  * [reactotron](https://github.com/skellock/reactotron)
+  * [AVA](https://github.com/avajs/ava)
+  * [enzyme](https://github.com/airbnb/enzyme)
+  * [react-native-mock](https://github.com/lelandrichardson/react-native-mock)
+  * [mockery](https://github.com/mfncooper/mockery)
+  * [nyc](https://github.com/bcoe/nyc)
 
 ## :arrow_up: How to Setup
 
@@ -11,6 +37,7 @@
 
 **Step 3:** Install the Application with `npm install`
 
+**Step 4:** (optional) Install Ignite CLI `npm install -g react-native-ignite`
 
 ## :arrow_forward: How to Run App
 
