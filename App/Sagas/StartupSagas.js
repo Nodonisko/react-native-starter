@@ -1,3 +1,6 @@
+/* eslint-disable */
+/* remove when you start to use this file */
+
 import { put, select } from 'redux-saga/effects'
 import { is } from 'ramda'
 

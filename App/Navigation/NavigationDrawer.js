@@ -41,11 +41,11 @@ NavigationDrawer.propTypes = {
   onNavigate: PropTypes.func.isRequired
 }
 
-const mapStateToProps = state => ({
+const mapStateToProps = state => ({ // eslint-disable-line
 
 })
 
-const mapDispatchToProps = dispatch => ({
+const mapDispatchToProps = dispatch => ({ // eslint-disable-line
 
 })
 

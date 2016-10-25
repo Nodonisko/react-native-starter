@@ -22,7 +22,7 @@ test('failure', (t) => {
 
 test('logout', (t) => {
   const loginState = reducer(INITIAL_STATE, Actions.loginSuccess('hi'))
-  const state = reducer(loginState, Actions.logout())
+  const state = reducer(loginState, Actions.logout()) // eslint-disable-line
 
   t.falsy(state.username)
 })
