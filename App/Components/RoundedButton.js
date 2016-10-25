@@ -18,7 +18,6 @@ export default class RoundedButton extends React.Component {
 }
 
 RoundedButton.propTypes = {
-  navigator: React.PropTypes.object,
   text: React.PropTypes.string,
   onPress: React.PropTypes.func.isRequired,
   children: React.PropTypes.string

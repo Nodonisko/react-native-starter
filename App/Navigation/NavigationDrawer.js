@@ -15,11 +15,11 @@ class NavigationDrawer extends Component {
     const children = state.children
     return (
       <Drawer
-        ref='navigation'
+        ref={drawer => (this.navigation = drawer)}
         type='displace'
         open={state.open}
-        onOpen={() => NavigationActions.refresh({key: state.key, open: true})}
-        onClose={() => NavigationActions.refresh({key: state.key, open: false})}
+        onOpen={() => NavigationActions.refresh({ key: state.key, open: true })}
+        onClose={() => NavigationActions.refresh({ key: state.key, open: false })}
         content={<DrawerContent />}
         styles={Styles}
         tapToClose
@@ -37,7 +37,8 @@ class NavigationDrawer extends Component {
 }
 
 NavigationDrawer.propTypes = {
-  navigationState: PropTypes.object
+  navigationState: PropTypes.object,
+  onNavigate: PropTypes.func.isRequired
 }
 
 const mapStateToProps = (state) => {
