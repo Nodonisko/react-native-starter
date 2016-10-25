@@ -1,8 +1,8 @@
 import React, { PropTypes, Component } from 'react'
 import Drawer from 'react-native-drawer'
 import { DefaultRenderer, Actions as NavigationActions } from 'react-native-router-flux'
-import DrawerContent from '../Containers/DrawerContent'
 import { connect } from 'react-redux'
+import DrawerContent from '../Containers/DrawerContent'
 import Styles from './Styles/NavigationDrawerStyle'
 
 /* *******************
@@ -26,7 +26,7 @@ class NavigationDrawer extends Component {
         openDrawerOffset={0.2}
         panCloseMask={0.2}
         negotiatePan
-        tweenHandler={(ratio) => ({
+        tweenHandler={ratio => ({
           main: { opacity: Math.max(0.54, 1 - ratio) }
         })}
       >
