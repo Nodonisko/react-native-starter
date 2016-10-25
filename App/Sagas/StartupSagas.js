@@ -5,6 +5,6 @@ import { is } from 'ramda'
 export const selectTemperature = state => state.temperature.temperature
 
 // process STARTUP actions
-export function * startup (action) {
-  
+export function* startup (action) {
+
 }

@@ -35,7 +35,7 @@ export const failure = (state, { error }) =>
   state.merge({ fetching: false, error })
 
 // we've logged out
-export const logout = INITIAL_STATE
+export const logout = () => INITIAL_STATE
 
 /* ------------- Hookup Reducers To Types ------------- */
 

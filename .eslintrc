@@ -51,9 +51,11 @@
         "jsx-quotes": ["error", "prefer-single"],
         "semi": ["error", "never"],
         "comma-dangle": ["error", "never"],
-        "class-methods-use-this": 1,
+        "class-methods-use-this": 0,
         "no-trailing-spaces": 0,
         "new-cap": 1,
+        "no-plusplus": 0,
+        "import/no-extraneous-dependencies": 1,
         "react/jsx-filename-extension": [1, { "extensions": [".js"] }],
         "react/forbid-prop-types": 0,
         "react/prefer-stateless-function": 0

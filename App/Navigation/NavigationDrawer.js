@@ -10,7 +10,7 @@ import Styles from './Styles/NavigationDrawerStyle'
 ********************/
 
 class NavigationDrawer extends Component {
-  render () {
+  render() {
     const state = this.props.navigationState
     const children = state.children
     return (
@@ -41,14 +41,12 @@ NavigationDrawer.propTypes = {
   onNavigate: PropTypes.func.isRequired
 }
 
-const mapStateToProps = (state) => {
-  return {
-  }
-}
+const mapStateToProps = state => ({
 
-const mapDispatchToProps = (dispatch) => {
-  return {
-  }
-}
+})
+
+const mapDispatchToProps = dispatch => ({
+
+})
 
 export default connect(mapStateToProps, mapDispatchToProps)(NavigationDrawer)
