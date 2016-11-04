@@ -78,22 +78,5 @@
       "./Tests/Setup"
     ],
     "babel": "inherit"
-  },
-  "standard": {
-    "parser": "babel-eslint",
-    "globals": [
-      "describe",
-      "it",
-      "fetch",
-      "navigator",
-      "__DEV__",
-      "XMLHttpRequest",
-      "FormData"
-    ]
-  },
-  "config": {
-    "ghooks": {
-      "pre-commit": "if [ -d 'ignite-base' ]; then cd ignite-base; fi; npm run lint"
-    }
   }
 }
